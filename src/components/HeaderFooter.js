@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 
 function Header() {
+
     return (
         <div className='header-container'>
             <div className='nav-links'>
@@ -28,6 +29,11 @@ function Header() {
 
 
 function Footer() {
+
+    const logout = () => {
+        localStorage.removeItem('token')
+    }
+
     return (
         <div className='footer-container'>
             <div className='nav-links'>
@@ -46,7 +52,11 @@ function Footer() {
                 <div>
                     <Link to='/dashboard'>Dashboard</Link>
                 </div>
+                <div>
+                    <Link onClick={logout} to='/'>Logout</Link>
+                </div>
             {/* END OF NAV-LINKS */}
+
             </div>
         {/* END OF FOOTER CONTAINER */}
         </div>

@@ -1,6 +1,6 @@
 function LandingPage(){
     return (
-        <div className='landingpage-container'>
+        <div className='landing-page-container'>
             <div className='hero-container'>
                 <img className='hero-image' src={require('../pizzahero.png')} alt='pizza'/>
             </div>

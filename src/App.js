@@ -7,7 +7,7 @@ import LandingPage from './components/LandingPage';
 import RegisterPage from './components/RegisterPage';
 import LoginPage from './components/LoginPage';
 import AccountInfoPage from './components/AccountInfoPage';
-import DashboardPage from './components/Dashboard';
+import PizzaPage from './components/PizzaPage';
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
             <Route path='/register' element={<RegisterPage/>}/>
             <Route path='/login' element={<LoginPage/>}/>
             <Route path='/account' element={<AccountInfoPage/>}/>
-            <Route path='/dashboard' element={<DashboardPage/>}/>      
+            <Route path='/dashboard' element={<PizzaPage/>}/>      
           
           </Routes>
         {/* END OF APP BODY */}
