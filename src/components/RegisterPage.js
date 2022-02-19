@@ -56,7 +56,7 @@ function RegisterPage() {
                         placeholder='Enter First Name'
                     />
                 </label>
-
+<br></br>
                 <label>
                     <input
                         name='lastName'
@@ -66,7 +66,7 @@ function RegisterPage() {
                         placeholder='Enter Last Name'
                     />
                 </label>
-
+<br></br>
                 <label>
                     <input
                         name='emailAddress'
@@ -76,7 +76,7 @@ function RegisterPage() {
                         placeholder='Enter Email Address'
                     />
                 </label>
-
+<br></br>
                 <label>
                     <input
                         name='phoneNumber'
@@ -86,7 +86,7 @@ function RegisterPage() {
                         placeholder='Enter Phone Number'
                     />
                 </label>
-
+<br></br>
                 <label>
                     <input
                         name='username'
@@ -96,7 +96,7 @@ function RegisterPage() {
                         placeholder='Enter Username'
                     />
                 </label>
-
+<br></br>
                 <label>
                     <input
                         name='password'
@@ -106,7 +106,7 @@ function RegisterPage() {
                         placeholder='Enter Password'
                     />
                 </label>
-
+<br></br>
                 <div>
                     <button onClick={handleSubmit}>Submit</button>
                 </div>
